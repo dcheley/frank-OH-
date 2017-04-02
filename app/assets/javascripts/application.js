@@ -14,3 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$(document).ready(function() {
+  //Add turbolinks event listener for jQuery
+  $(document).on('turbolinks:load', function() {
+
+  });
+
+});
