@@ -11,3 +11,14 @@ $bright-purple: #8067ae;
 $light-grey: #8c8c94;
 $super-dark-purple: #181424;
 $indigo: #545c74;
+
+@font-face {
+	font-family: 'Lato Light';
+	src:url('fonts/Lato-Light.eot');
+	src:url('fonts/Lato-Light?#iefix') format('embedded-opentype'),
+		url('fonts/Lato-Light.ttf') format('truetype'),
+		url('fonts/Lato-Light.woff') format('woff'),
+		url('fonts/Lato-Light.svg#icofonts') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
