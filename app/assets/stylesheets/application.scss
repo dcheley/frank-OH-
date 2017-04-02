@@ -11,3 +11,17 @@ $bright-purple: #8067ae;
 $light-grey: #8c8c94;
 $super-dark-purple: #181424;
 $indigo: #545c74;
+
+.navbar-brand {
+  float: none;
+}
+
+.navbar-center {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  margin: auto;
+  height: 100%;
+}

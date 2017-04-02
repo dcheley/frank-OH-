@@ -9,24 +9,31 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-        </div>
+    <nav class="navbar navbar-default" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        &nbsp;
+      </div>
+    <div class="navbar-center navbar-brand" href="#"><a class="navbar-brand" href="/">FRANKOH!</a></div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav navbar-left">
           <li><a href="/pages/ohriginals">OHRIGINALS</a></li>
           <li><a href="/pages/gallery">GALLERY</a></li>
         </ul>
-        <ul class="nav navbar-nav navbar", style="text-align: center;">
-          <a class="navbar-brand" href="/">
-            <span class="glyphicon glyphicon-home" style="color: black;"></span>
-          </a>
-        </ul>
         <ul class="nav navbar-nav navbar-right">
+          <li><a href="/pages/videos">VIDEOS</a></li>
           <li><a href="/pages/contact">CONTACT</a></li>
         </ul>
-      </div>
-    </nav>
+      </div><!-- /.navbar-collapse -->
+  </nav>
+
     <%= yield %>
   </body>
 </html>
