@@ -14,8 +14,8 @@ $indigo: #545c74;
 
 @font-face {
 	font-family: 'Lato Light';
-	src:url('fonts/Lato-Light.eot');
-	src:url('fonts/Lato-Light?#iefix') format('embedded-opentype'),
+	src:font-url('fonts/Lato-Light.eot');
+	src:font-url('fonts/Lato-Light?#iefix') format('embedded-opentype'),
 		url('fonts/Lato-Light.ttf') format('truetype'),
 		url('fonts/Lato-Light.woff') format('woff'),
 		url('fonts/Lato-Light.svg#icofonts') format('svg');
