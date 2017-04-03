@@ -1445,3 +1445,1069 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 140ms (Views: 137.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-04-02 21:28:56 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.6ms)
+Started GET "/" for 127.0.0.1 at 2017-04-02 21:28:57 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4724ms (Views: 4714.0ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3795ms (Views: 3793.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 21:29:09 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 148ms (Views: 145.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 21:29:10 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 62ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 21:32:23 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "	height": expected ";", was ": 500px;"):
+    4:     <title>Frank-OH!</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.scss:37
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___4000221924568504358_70358422958900'
+  Rendering /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (12.2ms)
+  Rendering /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendering /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (42.6ms)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Started GET "/" for 127.0.0.1 at 2017-04-02 21:40:54 -0400
+Started GET "/" for 127.0.0.1 at 2017-04-02 21:40:55 -0400
+Processing by PagesController#home as HTML
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.8ms)
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6094ms (Views: 6070.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 6090ms (Views: 6075.4ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/homepage-header.jpg"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-04-02 21:41:10 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 59ms (Views: 57.4ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/homepage-header.jpg"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-04-02 21:48:49 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2011ms (Views: 2009.5ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/images/homepage-header.jpg"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-04-02 21:55:50 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/dcheley/Desktop/projX/frank-OH!/app/views/pages/home.html.erb:1: syntax error, unexpected ',', expecting ')'
+ge_tag('homepage-header.jpg'), class:"home-header" );@output
+                              ^):
+  
+app/views/pages/home.html.erb:1: syntax error, unexpected ',', expecting ')'
+  Rendering /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (14.8ms)
+  Rendering /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendering /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.5ms)
+Started GET "/" for 127.0.0.1 at 2017-04-02 21:56:16 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 94ms (Views: 90.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 21:56:56 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 2065ms (Views: 2064.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 21:58:19 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 80ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 21:59:16 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2136ms (Views: 2134.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:00:55 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 2075ms (Views: 2072.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:01:43 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 68ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:03:58 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 2071ms (Views: 2069.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:07:14 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 2074ms (Views: 2071.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:09:10 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2090ms (Views: 2087.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:13:21 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 63ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:13:32 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 2408ms (Views: 2406.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:16:45 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 98ms (Views: 96.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:21:20 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 3572ms (Views: 3569.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:22:10 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 3660ms (Views: 3656.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:22:29 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 3717ms (Views: 3713.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:22:40 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 3828ms (Views: 3825.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:23:01 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 3759ms (Views: 3756.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:25:05 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 3791ms (Views: 3789.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:32:23 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 3738ms (Views: 3735.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:33:21 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 3783ms (Views: 3776.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:39:07 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 140ms (Views: 137.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:39:18 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 3461ms (Views: 3458.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:44:11 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1860ms (Views: 1858.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:44:33 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1849ms (Views: 1848.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:44:48 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 77ms (Views: 75.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:45:12 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1706ms (Views: 1704.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:46:20 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1967ms (Views: 1965.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:50:49 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1896ms (Views: 1894.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:53:16 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 90ms (Views: 88.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:53:21 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:54:53 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1690ms (Views: 1688.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:55:15 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1850ms (Views: 1848.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 22:55:32 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1951ms (Views: 1949.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:00:50 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 83ms (Views: 81.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:01:43 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1849ms (Views: 1847.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:07:39 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1777ms (Views: 1775.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:12:50 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1828ms (Views: 1827.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:13:13 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1868ms (Views: 1866.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:13:50 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 1745ms (Views: 1742.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:14:02 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 57ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/gallery" for 127.0.0.1 at 2017-04-02 23:14:54 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"gallery"}
+  Rendering pages/gallery.html.erb within layouts/application
+  Rendered pages/gallery.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 85ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/videos" for 127.0.0.1 at 2017-04-02 23:14:55 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"videos"}
+  Rendering pages/videos.html.erb within layouts/application
+  Rendered pages/videos.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 65ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-02 23:15:00 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 118ms (Views: 116.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-02 23:15:00 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (1.4ms)
+Completed 404 Not Found in 76ms (Views: 74.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:15:11 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.6ms)
+Started GET "/..." for 127.0.0.1 at 2017-04-02 23:15:12 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/..."):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Completed 200 OK in 101ms (Views: 99.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendering /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered collection of /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (2.0ms)
+  Rendered /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendering /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /home/dcheley/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.8ms)
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:17:52 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 61ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:18:28 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 62ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:18:39 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 66ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:23:36 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 1803ms (Views: 1801.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:25:22 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1881ms (Views: 1879.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:34:56 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1685ms (Views: 1683.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:36:50 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1842ms (Views: 1840.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:38:35 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1940ms (Views: 1938.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:42:59 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 1705ms (Views: 1703.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:44:18 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1890ms (Views: 1888.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:45:28 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1864ms (Views: 1862.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:45:59 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 1703ms (Views: 1701.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:46:42 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1863ms (Views: 1861.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:47:09 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 1920ms (Views: 1918.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:54:02 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 1708ms (Views: 1706.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-02 23:54:27 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1867ms (Views: 1864.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-04-03 00:07:56 -0400
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 2308ms (Views: 2306.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:08:02 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (146.9ms)
+Completed 200 OK in 191ms (Views: 190.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:08:02 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.8ms)
+Completed 404 Not Found in 109ms (Views: 108.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:09:39 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1766ms (Views: 1765.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:09:41 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (1.0ms)
+Completed 404 Not Found in 130ms (Views: 128.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:09:41 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (1.1ms)
+Completed 404 Not Found in 98ms (Views: 97.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:11:06 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 140ms (Views: 138.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:11:07 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.5ms)
+Completed 404 Not Found in 85ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:11:46 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1704ms (Views: 1702.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:11:48 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.5ms)
+Completed 404 Not Found in 79ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:12:00 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1716ms (Views: 1714.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:12:02 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.5ms)
+Completed 404 Not Found in 91ms (Views: 89.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:12:02 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.5ms)
+Completed 404 Not Found in 78ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:12:09 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1949ms (Views: 1948.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:12:11 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.8ms)
+Completed 404 Not Found in 93ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:12:18 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2315ms (Views: 2314.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:12:21 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.8ms)
+Completed 404 Not Found in 168ms (Views: 166.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:12:39 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1877ms (Views: 1876.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:12:41 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.8ms)
+Completed 404 Not Found in 90ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:13:11 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 2019ms (Views: 2017.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:13:13 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.7ms)
+Completed 404 Not Found in 84ms (Views: 82.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:13:56 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1760ms (Views: 1759.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:13:58 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.5ms)
+Completed 404 Not Found in 141ms (Views: 140.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:14:35 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1852ms (Views: 1851.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:14:37 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.5ms)
+Completed 404 Not Found in 95ms (Views: 94.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:14:37 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (4.5ms)
+Completed 404 Not Found in 93ms (Views: 91.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:15:08 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 2003ms (Views: 2001.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:15:10 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (1.1ms)
+Completed 404 Not Found in 114ms (Views: 112.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:15:18 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1759ms (Views: 1758.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:15:20 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.9ms)
+Completed 404 Not Found in 147ms (Views: 146.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:15:30 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 118ms (Views: 117.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:15:30 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (1.1ms)
+Completed 404 Not Found in 153ms (Views: 148.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:15:36 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 93ms (Views: 92.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:15:37 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.6ms)
+Completed 404 Not Found in 80ms (Views: 79.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:16:09 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 57ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:16:09 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.5ms)
+Completed 404 Not Found in 94ms (Views: 93.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:16:10 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.6ms)
+Completed 404 Not Found in 72ms (Views: 71.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:18:17 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 92ms (Views: 90.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:18:17 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.6ms)
+Completed 404 Not Found in 97ms (Views: 96.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:18:17 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.9ms)
+Completed 404 Not Found in 79ms (Views: 77.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:19:04 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1775ms (Views: 1774.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:19:06 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.5ms)
+Completed 404 Not Found in 103ms (Views: 101.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:20:00 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 2095ms (Views: 2093.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:20:02 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.5ms)
+Completed 404 Not Found in 100ms (Views: 98.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:20:40 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1937ms (Views: 1935.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:20:42 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.5ms)
+Completed 404 Not Found in 133ms (Views: 132.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/ohriginals" for 127.0.0.1 at 2017-04-03 00:21:14 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"ohriginals"}
+  Rendering pages/ohriginals.html.erb within layouts/application
+  Rendered pages/ohriginals.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 1843ms (Views: 1841.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:21:16 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (1.2ms)
+Completed 404 Not Found in 92ms (Views: 88.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/..." for 127.0.0.1 at 2017-04-03 00:21:16 -0400
+Processing by PagesController#show as HTML
+  Parameters: {"page"=>"..."}
+  Rendering public/404.html within layouts/application
+  Rendered public/404.html within layouts/application (0.5ms)
+Completed 404 Not Found in 86ms (Views: 84.7ms | ActiveRecord: 0.0ms)
+
+

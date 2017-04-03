@@ -12,6 +12,28 @@ $light-grey: #8c8c94;
 $super-dark-purple: #181424;
 $indigo: #545c74;
 
+.navbar-default, .container{
+  background-color: rgba(0, 0, 0, 0);
+
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
+  color: #fff;
+}
+
+.nav {
+  padding-left: 10%;
+}
+
+.navbar-right {
+  margin-right: 10%;
+}
+
+.navbar {
+  margin: 0;
+  border: none;
+}
+
 .navbar-brand {
   float: none;
 }
@@ -29,5 +51,53 @@ $indigo: #545c74;
 .media {
 	border-bottom: 1px solid $bright-purple;
 	width: 100%;
-	margin-top: 50px;
+	padding-top: 120px;
+}
+
+.media-heading {
+  color: #fff;
+}
+
+// .tint-img {
+//   background: rgba(0,255,255, 0.5);
+//   z-index: 1;
+//   height: 100%;
+//   width: 100%;
+//   position: fixed;
+//   overflow: auto;
+//   top: 0px;
+//   left: 0px;
+// }
+
+.background-image {
+  z-index: -1;
+	height: 100%;
+	width: 100%;
+  background-size: cover;
+  position: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+  border: 0;
+}
+
+.header-content h2 {
+  font-size: 90px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding-top: 200px;
+}
+
+.intro {
+  text-align: center;
+  color: #fff;
+  margin: 500px;
+}
+
+.intro h2{
+  font-size: 50px;
+}
+
+.intro p{
+  font-size: 30px;
 }
