@@ -18,7 +18,16 @@
 $(document).ready(function() {
   //Add turbolinks event listener for jQuery
   $(document).on('turbolinks:load', function() {
-    
+    $(window).scroll(function() {
+      var y_scroll_pos = window.pageYOffset;
+      var scroll_pos_test = 120;
+
+      if (y_scroll_pos > scroll_pos_test) {
+        $(".navbar").hide();
+      } else {
+        $(".navbar").show();
+      }
+    });
   });
 
 });
