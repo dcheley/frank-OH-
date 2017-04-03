@@ -14,7 +14,6 @@ $indigo: #545c74;
 
 .navbar-default, .container{
   background-color: rgba(0, 0, 0, 0);
-
 }
 
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
@@ -50,8 +49,13 @@ $indigo: #545c74;
 
 .media {
 	border-bottom: 1px solid $bright-purple;
-	width: 100%;
+	width: 75%;
 	padding-top: 120px;
+  margin-left: 10%;
+}
+
+.media:first-child {
+  margin-top: 40px;
 }
 
 .media-heading {

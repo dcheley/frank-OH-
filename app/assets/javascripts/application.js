@@ -20,7 +20,7 @@ $(document).ready(function() {
   $(document).on('turbolinks:load', function() {
     $(window).scroll(function() {
       var y_scroll_pos = window.pageYOffset;
-      var scroll_pos_test = 120;
+      var scroll_pos_test = 100;
 
       if (y_scroll_pos > scroll_pos_test) {
         $(".navbar").hide();
