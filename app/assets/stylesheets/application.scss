@@ -78,12 +78,8 @@ $indigo: #545c74;
 // }
 
 .background-image {
-  background:
-   /* top, transparent red, faked with gradient */
-   linear-gradient(
-     rgba(255, 0, 0, 0.45),
-     rgba(255, 0, 0, 0.45)
-   );
+  // -webkit-filter: grayscale(100%);
+  -webkit-filter: hue-rotate(260deg);
   z-index: -1;
 	height: 100%;
 	width: 100%;
