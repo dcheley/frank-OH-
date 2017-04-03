@@ -63,17 +63,27 @@ $indigo: #545c74;
 }
 
 // .tint-img {
-//   background: rgba(0,255,255, 0.5);
+//   background:
+//    /* top, transparent red, faked with gradient */
+//    linear-gradient(
+//      rgba(255, 0, 0, 0.45),
+//      rgba(255, 0, 0, 0.45)
+//    );
 //   z-index: 1;
 //   height: 100%;
 //   width: 100%;
-//   position: fixed;
-//   overflow: auto;
+//   // overflow: auto;
 //   top: 0px;
 //   left: 0px;
 // }
 
 .background-image {
+  background:
+   /* top, transparent red, faked with gradient */
+   linear-gradient(
+     rgba(255, 0, 0, 0.45),
+     rgba(255, 0, 0, 0.45)
+   );
   z-index: -1;
 	height: 100%;
 	width: 100%;
@@ -89,13 +99,13 @@ $indigo: #545c74;
   text-align: center;
   color: #fff;
   margin: 0;
-  padding-top: 200px;
+  padding-top: 240px;
 }
 
 .intro {
   text-align: center;
   color: #fff;
-  margin: 500px;
+  margin: 300px;
 }
 
 .intro h2{
