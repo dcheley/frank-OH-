@@ -99,16 +99,47 @@ $indigo: #545c74;
   padding-top: 240px;
 }
 
+.header h2 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding-top: 0;
+  color: #fff;
+}
+
 .intro {
   text-align: center;
   color: #fff;
   margin: 300px;
 }
 
-.intro h2{
+.intro h2 {
   font-size: 50px;
 }
 
-.intro p{
+.intro p {
   font-size: 30px;
+}
+
+.gallery-header-img {
+  z-index: -1;
+  height: 90%;
+  width: 100%;
+  background-size: cover;
+  margin: 0;
+  border: 0;
+}
+
+.gallery-content {
+  background-color: black;
+}
+
+figure {
+    display: inline;
+}
+
+.gallery {
+  width: 400px;
+  height: 260px;
+  margin: 5%;
 }
