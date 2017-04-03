@@ -13,11 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require bootstrap-sprockets
 //= require_tree .
 $(document).ready(function() {
   //Add turbolinks event listener for jQuery
   $(document).on('turbolinks:load', function() {
-
+    
   });
 
 });
