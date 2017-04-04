@@ -47,21 +47,6 @@ $indigo: #545c74;
   height: 100%;
 }
 
-.media {
-	border-bottom: 1px solid $bright-purple;
-	width: 75%;
-	padding-top: 120px;
-  margin-left: 10%;
-}
-
-.media:first-child {
-  margin-top: 40px;
-}
-
-.media-heading {
-  color: #fff;
-}
-
 // .tint-img {
 //   background:
 //    /* top, transparent red, faked with gradient */
@@ -176,6 +161,21 @@ figure {
 }
 
 //Ohriginals
+.media {
+	border-bottom: 1px solid $bright-purple;
+	width: 75%;
+	padding-top: 80px;
+  margin-left: 10%;
+}
+
+.media:first-child {
+  margin-top: 0;
+}
+
+.media-heading {
+  color: #fff;
+}
+
 .media-body:hover {
   background-color: $bright-purple;
   opacity: .5;
@@ -191,4 +191,17 @@ figure {
 .media-heading, .media-info {
   padding: 5px;
   color: white;
+}
+
+.ohriginals-title {
+  font-size: 90px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding-top: 120px;
+}
+
+.ohriginals-header {
+  color: $dark-purple;
+  font-size: 50px;
 }
