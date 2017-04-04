@@ -174,3 +174,21 @@ figure {
 .tint:hover:before {
   background: none;
 }
+
+//Ohriginals
+.media-body:hover {
+  background-color: $bright-purple;
+  opacity: .5;
+  transition: all .3s linear;
+}
+
+.media-left:hover {
+  background-color: $dark-purple;
+  opacity: .5;
+  transition: all .3s linear;
+}
+
+.media-heading, .media-info {
+  padding: 5px;
+  color: white;
+}
