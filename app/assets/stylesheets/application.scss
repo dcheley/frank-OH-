@@ -97,12 +97,8 @@ $indigo: #545c74;
   margin: 300px;
 }
 
-.intro h2 {
-  font-size: 50px;
-}
-
 .intro p {
-  font-size: 30px;
+  font-size: 16px;
 }
 
 .gallery-header-img {
@@ -223,7 +219,7 @@ figure {
 }
 
 .neon-glow-title p:nth-child(1) a {
-  color: #fff;
+  color: $light-grey;
   font-family: Roboto, sans-serif;
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
   -moz-animation: neon1 1.5s ease-in-out infinite alternate;
@@ -290,7 +286,7 @@ figure {
 }
 
 .gallery-title p:nth-child(1) a {
-  color: #fff;
+  color: $light-grey;
   font-family: Roboto, sans-serif;
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
   -moz-animation: neon1 1.5s ease-in-out infinite alternate;
