@@ -34,6 +34,7 @@ $indigo: #545c74;
 }
 
 .navbar-brand {
+  font-size: 32px;
   float: none;
 }
 
@@ -46,21 +47,6 @@ $indigo: #545c74;
   margin: auto;
   height: 100%;
 }
-
-// .tint-img {
-//   background:
-//    /* top, transparent red, faked with gradient */
-//    linear-gradient(
-//      rgba(255, 0, 0, 0.45),
-//      rgba(255, 0, 0, 0.45)
-//    );
-//   z-index: 1;
-//   height: 100%;
-//   width: 100%;
-//   // overflow: auto;
-//   top: 0px;
-//   left: 0px;
-// }
 
 .background-image {
   -webkit-filter: grayscale(80%);
