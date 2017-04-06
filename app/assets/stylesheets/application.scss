@@ -158,7 +158,8 @@ figure {
 .media {
 	border-bottom: 1px solid $bright-purple;
 	width: 75%;
-	padding-top: 80px;
+	padding-top: 0;
+  margin-top: 10%;
   margin-left: 10%;
 }
 
@@ -170,16 +171,16 @@ figure {
   color: #fff;
 }
 
-.media-body:hover {
+.media:hover {
   background-color: $bright-purple;
   opacity: .5;
   transition: all .3s linear;
+
 }
 
-.media-left:hover {
-  background-color: $dark-purple;
-  opacity: .5;
-  transition: all .3s linear;
+.media-left img {
+  height: 126px;
+  margin-bottom: 5px;
 }
 
 .media-heading, .media-info {
@@ -188,7 +189,6 @@ figure {
 }
 
 .ohriginals-title {
-  font-size: 90px;
   text-align: center;
   color: #fff;
   margin: 0;
@@ -202,4 +202,68 @@ figure {
 
 .neon-title {
   padding-left: 27%;
+}
+
+.ohriginals-title {
+  width: 500px;
+  margin: auto;
+}
+
+.ohriginals-title p {
+  text-align: center;
+  font-size: 7em;
+  margin: 20px 0 20px 0;
+}
+
+.ohriginals-title a {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.ohriginals-title p:nth-child(1) a {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+.ohriginals-title p:nth-child(1) a:hover {
+  color: $bright-purple;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+}
+
+.ohriginals-title p a:hover {
+  color: $purple;
+}
+
+@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px $bright-purple, 0 0 70px $bright-purple, 0 0 80px $bright-purple, 0 0 100px $bright-purple, 0 0 150px $bright-purple;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px $bright-purple, 0 0 35px $bright-purple, 0 0 40px $bright-purple, 0 0 50px $bright-purple, 0 0 75px $bright-purple;
+  }
+}
+
+@-moz-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px $bright-purple, 0 0 70px $bright-purple, 0 0 80px $bright-purple, 0 0 100px $bright-purple, 0 0 150px $bright-purple;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px $bright-purple, 0 0 35px $bright-purple, 0 0 40px $bright-purple, 0 0 50px $bright-purple, 0 0 75px $bright-purple;
+  }
+}
+
+@keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px $bright-purple, 0 0 70px $bright-purple, 0 0 80px $bright-purple, 0 0 100px $bright-purple, 0 0 150px $bright-purple;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px $bright-purple, 0 0 35px $bright-purple, 0 0 40px $bright-purple, 0 0 50px $bright-purple, 0 0 75px $bright-purple;
+  }
 }
