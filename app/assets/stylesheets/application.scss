@@ -188,41 +188,36 @@ figure {
   color: white;
 }
 
-.ohriginals-title {
+.neon-glow-title {
   text-align: center;
   color: #fff;
   margin: 0;
   padding-top: 120px;
 }
 
-.ohriginals-header {
-  color: $dark-purple;
-  font-size: 50px;
-}
-
 .neon-title {
   padding-left: 27%;
 }
 
-.ohriginals-title {
+.neon-glow-title {
   width: 500px;
   margin: auto;
 }
 
-.ohriginals-title p {
+.neon-glow-title p {
   text-align: center;
   font-size: 7em;
   margin: 20px 0 20px 0;
 }
 
-.ohriginals-title a {
+.neon-glow-title a {
   text-decoration: none;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
 
-.ohriginals-title p:nth-child(1) a {
+.neon-glow-title p:nth-child(1) a {
   color: #fff;
   font-family: Roboto, sans-serif;
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
@@ -230,14 +225,14 @@ figure {
   animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
-.ohriginals-title p:nth-child(1) a:hover {
+.neon-glow-title p:nth-child(1) a:hover {
   color: $bright-purple;
   -webkit-animation: none;
   -moz-animation: none;
   animation: none;
 }
 
-.ohriginals-title p a:hover {
+.neon-glow-title p a:hover {
   color: $purple;
 }
 
@@ -266,4 +261,50 @@ figure {
   to {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px $bright-purple, 0 0 35px $bright-purple, 0 0 40px $bright-purple, 0 0 50px $bright-purple, 0 0 75px $bright-purple;
   }
+}
+
+.gallery-title {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  // padding-top: 120px;
+  width: 500px;
+  margin: auto;
+}
+
+// .gallery-title {
+//   width: 500px;
+//   margin: auto;
+// }
+
+.gallery-title p {
+  text-align: center;
+  font-size: 6em;
+  margin: 20px 0 20px 0;
+}
+
+.gallery-title a {
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.gallery-title p:nth-child(1) a {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+.gallery-title p:nth-child(1) a:hover {
+  color: $bright-purple;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+}
+
+.gallery-title p a:hover {
+  color: $purple;
 }
