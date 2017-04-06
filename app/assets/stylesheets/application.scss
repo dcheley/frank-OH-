@@ -21,6 +21,10 @@ $indigo: #545c74;
   color: #fff;
 }
 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:hover {
+  color: $bright-purple;
+}
+
 .nav {
   padding-left: 10%;
 }
