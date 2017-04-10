@@ -45,5 +45,12 @@
      </nav>
     </div>
     <%= yield %>
+    <div class="footer">
+      <%= link_to image_tag('fb-icon.png', class:"footer-icon"), "https://www.facebook.com/frankohmusic/", target: '_blank' %>
+      <%= link_to image_tag('instagram-icon.png', class:"footer-icon"), "https://www.instagram.com/frankohmusic/?hl=en", target: '_blank' %>
+      <%= link_to image_tag('twitter-icon.png', class:"footer-icon"), "https://twitter.com/frankohmusic?lang=en", target: '_blank' %>
+      <%= link_to image_tag('youtube-icon.png', class:"footer-icon"), "https://www.youtube.com/user/frankohmusic", target: '_blank' %>
+      <%= link_to image_tag('soundcloud-icon.ico', class:"footer-icon"), "https://soundcloud.com/frankohmusic", target: '_blank' %>
+    </div>
   </body>
 </html>

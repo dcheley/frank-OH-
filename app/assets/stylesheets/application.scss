@@ -67,6 +67,24 @@ $indigo: #545c74;
   border: 0;
 }
 
+.footer {
+  text-align: center;
+}
+
+.footer-icon {
+  margin-top: 10%;
+  margin-bottom: 2.5%;
+  text-align: center;
+  display: inline-block;
+  width: 42;
+  height: 42px;
+}
+
+.footer-icon:hover {
+  width: 52px;
+  height: 52px;
+}
+
 .header-content h2 {
   font-size: 90px;
   text-align: center;
