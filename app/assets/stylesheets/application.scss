@@ -67,6 +67,19 @@ $indigo: #545c74;
   border: 0;
 }
 
+.top-background-image {
+  -webkit-filter: grayscale(80%);
+  -webkit-filter: brightness(80%);
+  z-index: -1;
+  margin-left: 25%;
+  margin-top: 2%;
+  height: 100%;
+  background-size: cover;
+  position: fixed;
+  background-repeat: no-repeat;
+
+}
+
 .footer {
   text-align: center;
 }
@@ -245,16 +258,16 @@ figure {
   animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
-.neon-glow-title p:nth-child(1) a:hover {
-  color: $bright-purple;
-  -webkit-animation: none;
-  -moz-animation: none;
-  animation: none;
-}
-
-.neon-glow-title p a:hover {
-  color: $purple;
-}
+// .neon-glow-title p:nth-child(1) a:hover {
+//   color: $bright-purple;
+//   -webkit-animation: none;
+//   -moz-animation: none;
+//   animation: none;
+// }
+//
+// .neon-glow-title p a:hover {
+//   color: $purple;
+// }
 
 @-webkit-keyframes neon1 {
   from {
