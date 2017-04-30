@@ -322,17 +322,6 @@ figure {
   animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
-.gallery-title p:nth-child(1) a:hover {
-  color: $bright-purple;
-  -webkit-animation: none;
-  -moz-animation: none;
-  animation: none;
-}
-
-.gallery-title p a:hover {
-  color: $purple;
-}
-
 .contact-header-img {
   width: 45%;
   float: right;
