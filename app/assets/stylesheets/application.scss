@@ -12,6 +12,11 @@ $light-grey: #8c8c94;
 $super-dark-purple: #181424;
 $indigo: #545c74;
 
+@font-face {
+  font-family: 'Ninja Naruto';
+  src: url('/assets/njnaruto.ttf') format('truetype'),
+}
+
 .navbar-default, .container{
   background-color: rgba(0, 0, 0, 0);
   margin-left: 4%;
