@@ -85,7 +85,7 @@ $indigo: #545c74;
 }
 
 .footer-icon {
-  margin-top: 10%;
+  margin-top: 45%;
   margin-bottom: 2.5%;
   text-align: center;
   display: inline-block;
@@ -93,9 +93,9 @@ $indigo: #545c74;
   height: 42px;
 }
 
+//Doesn't do anything for now
 .footer-icon:hover {
-  width: 52px;
-  height: 52px;
+  color: $light-grey;
 }
 
 .header-content h2 {
@@ -257,17 +257,6 @@ figure {
   -moz-animation: neon1 1.5s ease-in-out infinite alternate;
   animation: neon1 1.5s ease-in-out infinite alternate;
 }
-
-// .neon-glow-title p:nth-child(1) a:hover {
-//   color: $bright-purple;
-//   -webkit-animation: none;
-//   -moz-animation: none;
-//   animation: none;
-// }
-//
-// .neon-glow-title p a:hover {
-//   color: $purple;
-// }
 
 @-webkit-keyframes neon1 {
   from {
