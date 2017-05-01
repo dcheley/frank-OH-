@@ -318,7 +318,7 @@ figure {
 }
 
 .contact-title {
-  margin-top: 25%;
+  margin-top: 5%;
   color: white;
   text-align: center;
 }
@@ -335,4 +335,36 @@ figure {
 .btn-success {
   background: none;
   border-color: white;
+}
+
+.btn-success:hover {
+  background-color: $bright-purple;
+  border-color: $bright-purple;
+}
+
+.divider {
+  margin-top: 15%;
+  border-top: 1px solid $light-grey;
+  width: 70%;
+}
+
+.columns-container {
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+.left-side {
+  margin-left: 25%;
+  float: left;
+  width: 25%;
+}
+
+.right-side {
+  margin-right: 25%;
+  float: right;
+  width: 25%;
 }
