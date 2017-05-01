@@ -180,6 +180,7 @@ $moveRight: $tileWidth * ($growFactor - 1);
 }
 
 .neon-glow-title {
+  font-family: "njnaruto";
   margin: auto;
   text-align: center;
 }
@@ -376,6 +377,7 @@ figure {
   margin-right: 25%;
   float: right;
   width: 25%;
+}
 
 //Video & Carousel
 * {
