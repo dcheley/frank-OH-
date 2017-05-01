@@ -341,6 +341,7 @@ figure {
 .btn-success {
   background: none;
   border-color: white;
+}
 
 //Video & Carousel
 * {
@@ -366,7 +367,7 @@ a:hover {
   max-width: 1088px;
 }
 
-.row {
+.carousel-row {
   overflow-x: scroll;
   overflow-y: hidden;
   width: 100%;
