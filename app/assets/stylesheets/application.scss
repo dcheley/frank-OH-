@@ -323,6 +323,25 @@ figure {
   height: 737px;
 }
 
+.contact-title {
+  margin-top: 25%;
+  color: white;
+  text-align: center;
+}
+
+.form-group label {
+  color: white;
+  font-weight: 400;
+}
+
+.text-muted {
+  color: white;
+}
+
+.btn-success {
+  background: none;
+  border-color: white;
+
 //Video & Carousel
 * {
   box-sizing: border-box
