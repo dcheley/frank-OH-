@@ -175,12 +175,10 @@ $moveRight: $tileWidth * ($growFactor - 1);
 .neon-glow-title {
   width: 500px;
   color: #fff;
-  margin: 0;
   padding-top: 120px;
 }
 
 .neon-glow-title {
-  font-family: "njnaruto";
   margin: auto;
   text-align: center;
 }
@@ -199,8 +197,8 @@ $moveRight: $tileWidth * ($growFactor - 1);
 }
 
 .neon-glow-title p:nth-child(1) a {
+  font-family: "njnaruto";
   color: $light-grey;
-  font-family: Roboto, sans-serif;
   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
   -moz-animation: neon1 1.5s ease-in-out infinite alternate;
   animation: neon1 1.5s ease-in-out infinite alternate;
@@ -245,15 +243,6 @@ $moveRight: $tileWidth * ($growFactor - 1);
   margin: 0 auto;
 }
 
-.gallery-title {
-  text-align: center;
-  color: #fff;
-  margin: 0;
-  width: 500px;
-  margin: auto;
-  padding-bottom: 15px;
-}
-
 .gallery-header-img {
   z-index: -1;
   height: 90%;
@@ -292,27 +281,6 @@ figure {
 
 .tint:hover:before {
   background: none;
-}
-
-.gallery-title p {
-  text-align: center;
-  font-size: 6em;
-  margin: 20px 0 20px 0;
-}
-
-.gallery-title a {
-  text-decoration: none;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.gallery-title p:nth-child(1) a {
-  color: $light-grey;
-  font-family: Roboto, sans-serif;
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
 // Contant page
