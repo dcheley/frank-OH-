@@ -23,8 +23,10 @@ $moveLeft: -($tileWidth * ($growFactor - 1) / 2);
 $moveRight: $tileWidth * ($growFactor - 1);
 
 @font-face {
-  font-family: 'Ninja Naruto';
-  src: url('/assets/njnaruto.ttf') format('truetype'),
+  font-family: "njnaruto";
+  src: url('/assets/njnaruto.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .navbar-default, .container{
@@ -33,6 +35,8 @@ $moveRight: $tileWidth * ($growFactor - 1);
 }
 
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
+  font-family: "njnaruto";
+  font-size: 16px;
   color: #fff;
 }
 
